@@ -21,13 +21,13 @@
 
     <thead>
       <tr>
-        <th id="" colspan="1"></th>
+        <th id="" colspan="2"></th>
         <th id="name" colspan="1">Names</th>
         <th id="mass" colspan="1">Mass(10<sup>24</sup> kg)</th>
         <th id="diameter" colspan="1">Diameter(km)</th>
         <th id="density" colspan="1">Density(km/m<sup>3</sup>)</th>
         <th id="gravity" colspan="1">Gravity(m/s<sup>2</sup>)</th>
-        <th id="length" colspan="1">Length of day(hours)</th>
+        <th id="days" colspan="1">Length of day(hours)</th>
         <th id="distance" colspan="1">Distance from Sun (10<sup>6</sup> km)</th>
         <th id="temperature" colspan="1">Mean temperature (<sup>o</sup>C)</th>
         <th id="moons" colspan="1">Number of moons </th>
@@ -39,13 +39,13 @@
     <tbody>
 
       <tr>
-        <th id="terrestialplanets" rowspan="4" scope="rowgroup">Terrestial planets</th>
+        <th id="terrestialplanets" rowspan="4" colspan="2">Terrestial planets</th>
         <th id="mercury" headers="name terrestialplanets">Mercury</th>
         <td headers="mass terrestialplanets mercury"> 0.330</td>
         <td headers="diameter terrestialplanets mercury">4,879</td>
         <td headers="density terrestialplanets mercury">5427</td>
         <td headers="gravity terrestialplanets mercury">3.7</td>
-        <td headers="length terrestialplanets mercury">4222.6</td>
+        <td headers="days terrestialplanets mercury">4222.6</td>
         <td headers="distance terrestialplanets mercury">57.9</td>
         <td headers="temperature terrestialplanets mercury">167</td>
         <td headers="moons terrestialplanets mercury">0</td>
@@ -57,7 +57,7 @@
         <td headers="diameter terrestialplanets venus">12,104</td>
         <td headers="density terrestialplanets venus">5243</td>
         <td headers="gravity terrestialplanets venus">8.9</td>
-        <td headers="length terrestialplanets venus">2802.0</td>
+        <td headers="days terrestialplanets venus">2802.0</td>
         <td headers="distance terrestialplanets venus">108.2</td>
         <td headers="temperature terrestialplanets venus">167</td>
         <td headers="moons terrestialplanets venus">0</td>
@@ -68,32 +68,68 @@
         <td headers="diameter terrestialplanets venus">12,756</td>
         <td headers="density terrestialplanets venus">5514</td>
         <td headers="gravity terrestialplanets venus">9.8</td>
-        <td headers="length terrestialplanets venus">24.0</td>
+        <td headers="days terrestialplanets venus">24.0</td>
         <td headers="distance terrestialplanets venus">149.6</td>
         <td headers="temperature terrestialplanets venus">15</td>
         <td headers="moons terrestialplanets venus">1</td>
         <td headers="notes terrestialplanets venus">Our world</td>
       </tr>
       <tr>
-        <th id="mercury" headers="name terrestialplanets">Mercury</th>
-        <td headers="mass terrestialplanets mercury"> 0.330</td>
-        <td headers="diameter terrestialplanets mercury">4,879</td>
-        <td headers="density terrestialplanets mercury">5427</td>
-        <td headers="gravity terrestialplanets mercury">3.7</td>
-        <td headers="length terrestialplanets mercury">4222.6</td>
-        <td headers="distance terrestialplanets mercury">57.9</td>
-        <td headers="temperature terrestialplanets mercury">167</td>
-        <td headers="moons terrestialplanets mercury">0</td>
-        <td headers="notes terrestialplanets mercury">Closest to the Sun</td>
+        <th id="mars" headers="name terrestialplanets">Mars</th>
+        <td headers="mass terrestialplanets mars"> 0.642</td>
+        <td headers="diameter terrestialplanets mars">6,792</td>
+        <td headers="density terrestialplanets mars">3933</td>
+        <td headers="gravity terrestialplanets mars">3.7</td>
+        <td headers="days terrestialplanets mars">24.7</td>
+        <td headers="distance terrestialplanets mars">227.9</td>
+        <td headers="temperature terrestialplanets mars">-65</td>
+        <td headers="moons terrestialplanets mars">2</td>
+        <td headers="notes terrestialplanets mars">The red planet</td>
       </tr>
 
       <tr>
-        <th id="" rowspan="4">Belgium</th>
-        <th id="antwerp" headers="belgium">Antwerp</th>
-        <td headers="antwerp belgium clothes trousers">56</td>
-        <td headers="antwerp belgium clothes skirts">22</td>
-        <td headers="antwerp belgium clothes dresses">43</td>
+        <th id="jovianplanets" rowspan="4" scope="rowgroup">Jovian planets</th>
+        <th id="gasgiants" scope="row" rowspan="2">Gas Giants</th>
+        <th id="jupiter" headers="name jovialplanets gasgiants">Jupiter</th>
+        <td headers="mass jovianplanets gasgiants jupiter">1898</td>
+        <td headers="diameter jovianplanets gasgiants jupiter">142,984</td>
+        <td headers="density jovianplanets gasgiants jupiter">1326</td>
+        <td headers="gravity jovianplanets gasgiants jupiter">23.1</td>
+        <td headers="days jovianplanets gasgiants jupiter">9.9</td>
+        <td headers="distance jovianplanets gasgiants jupiter">778.6</td>
+        <td headers="temperature jovianplanets gasgiants jupiter">-110</td>
+        <td headers="moons jovianplanets gasgiants jupiter">67</td>
+        <td headers="notes jovianplanets gasgiants jupiter">The largest planet</td>
       </tr>
+
+      <tr>
+        <th id="saturn" headers="name jovialplanets gasgiants">Saturn</th>
+        <td headers="mass jovianplanets gasgiants jupiter">568</td>
+        <td headers="diameter jovianplanets gasgiants jupiter">120,536</td>
+        <td headers="density jovianplanets gasgiants jupiter">687</td>
+        <td headers="gravity jovianplanets gasgiants jupiter">9.0</td>
+        <td headers="days jovianplanets gasgiants jupiter">10.7</td>
+        <td headers="distance jovianplanets gasgiants jupiter">1433.5</td>
+        <td headers="temperature jovianplanets gasgiants jupiter">-140</td>
+        <td headers="moons jovianplanets gasgiants jupiter">62</td>
+        <td headers="notes jovianplanets gasgiants jupiter"></td>
+      </tr>
+
+      <tr>
+        <th id="icegiants" scope="row" rowspan="2">Ice Giants</th>
+        <th id="saturn" scope="rowgroup" rowspan="2">Uranus</th>
+        <td headers="mass jovianplanets gasgiants jupiter">86.8</td>
+        <td headers="diameter jovianplanets gasgiants jupiter">51,118</td>
+        <td headers="density jovianplanets gasgiants jupiter">1271</td>
+        <td headers="gravity jovianplanets gasgiants jupiter">8.7</td>
+        <td headers="days jovianplanets gasgiants jupiter">17.2</td>
+        <td headers="distance jovianplanets gasgiants jupiter">2872.5</td>
+        <td headers="temperature jovianplanets gasgiants jupiter">-195</td>
+        <td headers="moons jovianplanets gasgiants jupiter">27</td>
+        <td headers="notes jovianplanets gasgiants jupiter"></td>
+      </tr>
+
+
     </tbody>
 
   </table>
