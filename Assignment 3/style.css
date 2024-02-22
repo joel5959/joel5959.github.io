@@ -5,9 +5,14 @@ html {
 
 /* Your CSS below here */
 div {
-  height: 200px;
+  background-color: red;
+  height: 150px;
   width: 200px;
-
-  font-size: 17px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: 1px, rgb(97, 27, 27);
 
 }
