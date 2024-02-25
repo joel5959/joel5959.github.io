@@ -82,3 +82,40 @@ h1 {
 section p:first-of-type {
   text-indent: 20px;
 }
+
+a {
+  text-decoration: underline;
+  color: black
+}
+
+a:visited {
+  color: blue
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: blueviolet
+}
+
+a:active {
+  color: #a66;
+}
+
+a:focus {
+  outline: none;
+}
+
+a.external-link {
+  position: relative;
+}
+
+a.external-link::after {
+  content: url(external-link-52.png);
+  margin-left: 5px;
+}
+
+.top-bar,
+.bottom-bar {
+  background-color: #a66;
+}
