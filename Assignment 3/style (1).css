@@ -48,3 +48,26 @@ footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: SerifBodyFont;
+  src: url('path/to/serif-body-font.woff2') format('woff2'),
+    url('path/to/serif-body-font.woff') format('woff');
+}
+
+@font-face {
+  font-family: SanSerifHeadingFont;
+  src: url('path/to/sans-serif-heading-font.woff2') format('woff2'),
+    url('path/to/sans-serif-heading-font.woff') format('woff');
+  ;
+}
+
+body {
+  font-family: 'SerifBodyFont', serif;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+h1,
+h2 {
+  font-family: 'SanSerifHeadingFont', sans-serif;
+}
