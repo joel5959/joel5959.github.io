@@ -65,9 +65,20 @@ body {
   font-family: 'SerifBodyFont', serif;
   font-size: 10px;
   line-height: 25px;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
 }
 
 h1,
 h2 {
   font-family: 'SanSerifHeadingFont', sans-serif;
+  letter-spacing: 0.1 rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+section p:first-of-type {
+  text-indent: 20px;
 }
