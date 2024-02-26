@@ -71,6 +71,10 @@ nav a {
   gap: 1px;
 }
 
+.photos img {
+  width: calc(50% - 1px)
+}
+
 .feature {
   width: 200px;
 }
