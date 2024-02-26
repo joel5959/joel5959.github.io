@@ -130,3 +130,17 @@ ul {
   list-style: none;
   padding-left: 20px;
 }
+
+ul li {
+  position: relative;
+  line-height: 1.6;
+  padding-left: 5px;
+}
+
+ul li::before {
+  content: "\2022";
+  font-size: 1.2em;
+  color: black;
+  position: absolute;
+  left: 0;
+}
