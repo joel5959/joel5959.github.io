@@ -39,6 +39,14 @@ nav ul {
   justify-content: space-around;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 2opx
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
