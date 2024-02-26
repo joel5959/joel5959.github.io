@@ -47,6 +47,11 @@ main {
   padding: 0 2opx
 }
 
+article {
+  flex: 1;
+  margin-right: 20px;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
