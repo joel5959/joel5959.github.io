@@ -1,6 +1,6 @@
 /*  
 Name: Joel Williams
-File: Assignment4Part2.html
+File: main.js
 Date: 21 March 2024
 Image gallery - Javascript file
 */
