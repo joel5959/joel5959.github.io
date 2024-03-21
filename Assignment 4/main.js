@@ -1,3 +1,11 @@
+/* 
+Name: Joel Williams
+File: main.js
+Date: 21 March 2024
+Javascript silly story generator - javascript file
+*/
+
+
 /* 1. COMPLETE VARIABLE AND FUNCTION DEFINITIONS */
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
