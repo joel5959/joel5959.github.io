@@ -1,3 +1,10 @@
+/*  
+Name: Joel Williams
+File: Assignment4Part2.html
+Date: 21 March 2024
+Image gallery - Javascript file
+*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
