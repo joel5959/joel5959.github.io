@@ -1,3 +1,11 @@
+/*
+  Name: Joel Williams
+	File: main-finished.js
+	Date: 22 March 2024
+  Bouncing balls (con't) javascript file  
+*/
+
+
 // set up canvas
 
 const canvas = document.querySelector("canvas");
