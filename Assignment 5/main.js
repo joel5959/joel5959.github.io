@@ -1,3 +1,9 @@
+/*
+	Name: Joel Williams
+	File: style.css
+	Date: 15 April 2024
+	Accessibility troubleshooting css file.
+*/
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
