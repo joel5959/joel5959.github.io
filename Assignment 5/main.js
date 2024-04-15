@@ -4,6 +4,7 @@
 	Date: 15 April 2024
 	Accessibility troubleshooting css file.
 */
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
@@ -21,6 +22,12 @@ showHideBtn.onclick = function() {
     commentWrapper.style.display = 'none';
   }
 };
+
+showHideBtn.onkeydown = (e) => {
+  if (e.key === "Enter") {
+    showHideBtn.click();
+  }
+}
 
 // functionality for adding a new comment via the comments form
 
@@ -50,4 +57,18 @@ function submitComment() {
 
   nameField.value = '';
   commentField.value = '';
+}
+
+const transcript = document.querySelector('.transcript');
+const transcriptBtn = document.querySelector('.transcript-button');
+const transcriptCon = document.querySelector('.transcript-container')
+
+transcriptBtn.onclick = () => {
+  if(transcriptBtn.textContent === 'Show transcript') {
+    transcript.style.display = "block";
+    transcriptBtn.textContent = 'Hide transcript';
+  } else {
+    transcript.style.display = "none";
+    transcriptBtn.textContent = 'Show transcript'
+  }
 }
